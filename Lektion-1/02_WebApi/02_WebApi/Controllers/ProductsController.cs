@@ -1,4 +1,5 @@
 ﻿using _02_WebApi.Models;
+using _02_WebApi.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,16 +9,18 @@ namespace _02_WebApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private List<Product> _products;
-        public IEnumerable<Product> GetAll()
+        private readonly IProductManager _productManager;
+
+        public ProductsController(IProductManager productManager)
         {
-            
-            return _products;
+            _productManager = productManager;
         }
 
-        public void Create(Product model)
+        [HttpGet]
+        public async Task<IEnumerable<Product>> GetAll()
         {
-            _products.Add(model);
+
+            return await _productManager.GetProductsAsync();
         }
     }
 }
