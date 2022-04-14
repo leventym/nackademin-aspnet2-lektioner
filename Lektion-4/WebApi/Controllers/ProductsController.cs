@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Services;
 
 namespace WebApi.Controllers
 {
@@ -7,16 +8,18 @@ namespace WebApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        public ProductsController()
-        {
+        private readonly IProductService _service;
 
+        public ProductsController(IProductService service)
+        {
+            _service = service;
         }
 
 
         [HttpGet]
         public async Task<IActionResult> GetAllProducts()
         {
-            return new OkObjectResult("");
+            return new OkObjectResult(await _service.GetAllProductsAsync());
         }
     }
 }
