@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lektion-4",
-    "\\Lektion-4\\WebApi.Test",
     "\\Lektion-4\\WebApi.Test\\Systems",
     "\\Lektion-4\\WebApi.Test\\Systems\\Services"
   ],
-  "SelectedNode": "\\Lektion-4\\WebApi.Test\\Systems\\Services\\ProductService_Should.cs",
   "PreviewInSolutionExplorer": false
 }
