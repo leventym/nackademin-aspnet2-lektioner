@@ -26,5 +26,22 @@ namespace _00_WebApi.Controllers
             }
             return new BadRequestResult();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            return new OkObjectResult(await _service.GetAll());
+        }
+
+        [HttpGet("{artnr}")]
+        public async Task<IActionResult> Get(string artnr)
+        {
+            var result = await _service.Get(artnr);
+            if (result != null)
+            {
+                return new OkObjectResult(result);
+            }
+            return new NotFoundResult();
+        }
     }
 }

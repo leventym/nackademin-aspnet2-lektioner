@@ -8,6 +8,8 @@ namespace _00_WebApi.Service
     public interface IProductService
     {
         Task<Product> CreateAsync(Product product);
+        Task<IEnumerable<Product>> GetAll();
+        Task<Product> Get(string articleNumber);
     }
     public class ProductService : IProductService
     {
@@ -37,6 +39,16 @@ namespace _00_WebApi.Service
             //Ange konverterings delen från AutoMapper
             return _mapper.Map<Product>(productEntity);
 
+        }
+
+        public async Task<Product> Get(string articleNumber)
+        {
+            return _mapper.Map<Product>(await _db.Products.FirstOrDefaultAsync(x => x.ArticleNr == articleNumber));
+        }
+
+        public async Task<IEnumerable<Product>> GetAll()
+        {
+            return _mapper.Map<IEnumerable<Product>>(await _db.Products.ToListAsync());
         }
     }
 }
