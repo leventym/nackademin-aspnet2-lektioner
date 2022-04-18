@@ -59,3 +59,5 @@ C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_We
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_WebApi\obj\Debug\net6.0\00_WebApi.pdb
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_WebApi\obj\Debug\net6.0\00_WebApi.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_WebApi\obj\Debug\net6.0\ref\00_WebApi.dll
+C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-3\00_WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
