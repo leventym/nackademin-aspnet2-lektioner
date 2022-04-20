@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Vqasosbs+UiF7veoocMRlcVlGa6lBXV5GdFiOl8d6ieZqPpv4Rh/A4Lpfw3CmLGrbqCNFGjP7tFzJlR+GD1ZdQ==",
+  "dgSpecHash": "qbbZNNNiX+T7LwpeVcN35BwMmkbk51jyajWWMEsSC58IZeofKPyaWuEkWDVGI/LUo2T7JuKc7y81IORVt+mqLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\nackademin-aspnet2-lektioner\\Lektion-5\\WebApp.UnitTests\\WebApp.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\fluentassertions\\6.6.0\\fluentassertions.6.6.0.nupkg.sha512",

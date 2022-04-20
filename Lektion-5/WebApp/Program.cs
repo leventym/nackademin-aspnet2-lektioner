@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<MsSqlContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("MsSqlProduction")));
 builder.Services.AddScoped<IDataAccess, MsSqlDataAccess>();
-//builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 var app = builder.Build();

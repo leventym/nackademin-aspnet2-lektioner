@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "b/9DueyNe/U0GStphNesSZ3PHMo1m+yX/xI7dcTXHZlL5kOk8pLnHGXHSiq1S/uyRzDkqTO6FbVzv4pO/l04Ow==",
+  "dgSpecHash": "I4xeAQLiRGDamodd8tbRsBjZdGbW5EdJH7au3KnGSom5nup3HefZMSwtF8X8QoM9+UwNNRQFja25lLO85FWsIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\nackademin-aspnet2-lektioner\\Lektion-5\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using WebApp.Data;
 using WebApp.Models;
 
@@ -15,19 +16,23 @@ namespace WebApp.Services.DataAccess
             _mapper = mapper;
         }
 
-        public Task<Product> CreateProductAsync(ProductCreateRequest data)
+        public async Task<Product> CreateProductAsync(ProductCreateRequest data)
         {
-            throw new NotImplementedException();
+            var productEntity = _mapper.Map<ProductEntity>(data);
+            _context.Products.Add(productEntity);
+            await _context.SaveChangesAsync();
+
+            return _mapper.Map<Product>(productEntity);
         }
 
-        public Task<IEnumerable<Product>> GetAllProductsAsync()
+        public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
-            throw new NotImplementedException();
+            return _mapper.Map<IEnumerable<Product>>(await _context.Products.ToListAsync());
         }
 
-        public Task<Product> GetProductAsync(int id)
+        public async Task<Product> GetProductAsync(int id)
         {
-            throw new NotImplementedException();
+            return _mapper.Map<Product>(await _context.Products.FindAsync(id));
         }
     }
 }
