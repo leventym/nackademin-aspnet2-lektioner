@@ -39,12 +39,13 @@ namespace WebApi.Tests
                 {
                     builder.ConfigureServices(services =>
                     {
+
+                        //tar bort "addscoped..." i program.cs filen för att ersätta med en annandbcontext, t.ex. test.
                         var descriptor = services.SingleOrDefault(x => x.ServiceType == typeof(DbContextOptions<DataContext>));
                         if (descriptor != null)
                             services.Remove(descriptor);
 
-                        //services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=tcp:cms21sqlserver.database.windows.net,1433;Initial Catalog=sql_testing;Persist Security Info=False;User ID=SqlAdmin;Password=BytMig123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
-                        services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("inmemorydb"));
+                        services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=tcp:cms21sqlserverlevent.database.windows.net,1433;Initial Catalog=sql_testing;Persist Security Info=False;User ID=SqlAdmin;Password=BytMig123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
                     });
                 });
 
@@ -89,8 +90,8 @@ namespace WebApi.Tests
                         if (descriptor != null)
                             services.Remove(descriptor);
 
-                        //services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=tcp:cms21sqlserver.database.windows.net,1433;Initial Catalog=sql_testing;Persist Security Info=False;User ID=SqlAdmin;Password=BytMig123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
-                        services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("inmemorydb"));
+                        services.AddDbContext<DataContext>(x => x.UseSqlServer("Server=tcp:cms21sqlserverlevent.database.windows.net,1433;Initial Catalog=sql_testing;Persist Security Info=False;User ID=SqlAdmin;Password=BytMig123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+                        //services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("inmemorydb"));
                     });
                 });
 

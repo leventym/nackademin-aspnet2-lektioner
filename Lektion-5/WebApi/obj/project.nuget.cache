@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CFC9FTuQXGtajqzYFUKUZQQ7QvqxUk/KT3jZYQgd+t4ii22xHLYcYgw5cHX4JXZd5DFonBuEodjKvaJXDNVwyw==",
+  "dgSpecHash": "bZl5EvzZK63OYhbEqe7GsFPQ0vvHiRYzLDjh+fjHe8+Cnw6SYnFPJHRHxBbINtQxY1xTWw335jI3YSScVbiy9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\nackademin-aspnet2-lektioner\\Lektion-5\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.4\\microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.4\\microsoft.entityframeworkcore.design.6.0.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.4\\microsoft.entityframeworkcore.inmemory.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.4\\microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.4\\microsoft.entityframeworkcore.sqlserver.6.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.4\\microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512",

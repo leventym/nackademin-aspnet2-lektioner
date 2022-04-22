@@ -61,3 +61,4 @@ C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-5\WebAp
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-5\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-5\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-5\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+C:\Users\Administrator\source\repos\nackademin-aspnet2-lektioner\Lektion-5\WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
