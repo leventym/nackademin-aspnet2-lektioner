@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Identity_IndividualAccounts", "01_Identity_IndividualAccounts\01_Identity_IndividualAccounts.csproj", "{DAA8E992-32A9-4708-A6D9-377F6C5F0ECF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Identity_ExternallAccounts", "02_Identity_ExternallAccounts\02_Identity_ExternallAccounts.csproj", "{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DAA8E992-32A9-4708-A6D9-377F6C5F0ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAA8E992-32A9-4708-A6D9-377F6C5F0ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAA8E992-32A9-4708-A6D9-377F6C5F0ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
