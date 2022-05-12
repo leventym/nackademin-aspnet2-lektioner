@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Identity_IndividualAccou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Identity_ExternallAccounts", "02_Identity_ExternallAccounts\02_Identity_ExternallAccounts.csproj", "{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Identity_AzureAD", "03_Identity_AzureAD\03_Identity_AzureAD.csproj", "{02633D8A-B8A8-41B5-98D4-11050729FE0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C096D90-A491-49F7-B2F1-4CC5F8E1201F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02633D8A-B8A8-41B5-98D4-11050729FE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02633D8A-B8A8-41B5-98D4-11050729FE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02633D8A-B8A8-41B5-98D4-11050729FE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02633D8A-B8A8-41B5-98D4-11050729FE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
