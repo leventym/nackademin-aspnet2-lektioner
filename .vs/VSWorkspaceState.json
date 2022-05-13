@@ -6,8 +6,9 @@
     "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas",
     "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas\\Identity",
     "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas\\Identity\\Pages",
-    "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas\\Identity\\Pages\\Account"
+    "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas\\Identity\\Pages\\Account",
+    "\\Lektion-10\\02_Identity_ExternallAccounts"
   ],
-  "SelectedNode": "\\Lektion-10\\01_Identity_IndividualAccounts\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+  "SelectedNode": "\\Lektion-10\\02_Identity_ExternallAccounts\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
